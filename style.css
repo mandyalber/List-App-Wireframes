@@ -1,0 +1,62 @@
+.app {
+    min-height: 600px;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: dimgray;
+}
+
+nav {
+    float: left;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: dimgray;
+}
+
+form.login {
+    max-width: 200px;
+    margin: 30px 10px 100px 10px;
+}
+
+
+.login input, label, button{
+    margin-bottom: 10px;
+}
+
+.login input[type=text] {
+    width: 100px;
+    display: inline-block;
+}
+
+ ul.category {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul.category li {
+    flex: 1;
+    padding: 5%;
+    border: 1px solid black;
+    margin: 0 5% 0 0;
+    justify-content: space-between;
+}
+
+.create-list {
+    width: 100%;
+}
+
+.create-list input[type=text], label, select {
+    
+}

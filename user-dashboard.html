@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListAble Dashboard Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+        <header>
+            <h1>ListAble</h1>
+        </header>
+        <nav>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="index.html">Sign Out</a></p>
+        </nav>
+        <main>
+            <h2>Welcome [User]!</h2>
+            <p>Here is where you can see all your list categories or create a new list! It willl look something like this:</p>
+            <form class="create-list">
+                <fieldset>
+                    <legend>Create a new List:</legend>
+                    <label for="name">List Name: </label>
+                    <input id="name" type="text">
+                    <label for="category">Category: </label>
+                    <select id="category">
+                        <option>Shopping List</option>
+                        <option>Wish List</option>
+                        <option>Gift List</option>
+                        <option>Reading List</option>
+                        <option>To Do List</option>
+                        <option>Chore List</option>
+                        <option>Homework/Project task List</option>
+                        <option>Goal List</option>
+                        <option>Custom List</option>
+                    </select>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+            <ul class="category">
+                <li>Shopping Lists</li>
+                <li>To Do Lists</li>
+                <li>Project Lists</li>
+                <li>Chore Lists</li>                
+            </ul>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
+
+</html>
